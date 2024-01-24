@@ -1,0 +1,37 @@
+{
+  "1706133360": {
+    "status": "UP",
+    "latency": 776,
+    "type": "realtime"
+  },
+  "1706133420": {
+    "status": "UP",
+    "latency": 893,
+    "type": "realtime"
+  },
+  "1706133480": {
+    "status": "UP",
+    "latency": 629,
+    "type": "realtime"
+  },
+  "1706133540": {
+    "status": "UP",
+    "latency": 725,
+    "type": "realtime"
+  },
+  "1706133600": {
+    "status": "UP",
+    "latency": 652,
+    "type": "realtime"
+  },
+  "1706133660": {
+    "status": "UP",
+    "latency": 608,
+    "type": "realtime"
+  },
+  "1706133720": {
+    "status": "UP",
+    "latency": 615,
+    "type": "realtime"
+  }
+}

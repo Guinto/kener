@@ -16,15 +16,15 @@ services:
 
       ### Most likely DO NOT need to change anything below this ###
 
-      #- PORT=3000 Port app listens on IN CONTAINER
+      - PORT=3009
 
       ### If any of the below are changed make sure the bound volume is correct as well ###
-      #- CONFIG_DIR=/config
-      #- PUBLIC_KENER_FOLDER=/config/static
-      #- MONITOR_YAML_PATH=/config/monitors.yaml
-      #- SITE_YAML_PATH=/config/site.yaml
+      - CONFIG_DIR=/config
+      - PUBLIC_KENER_FOLDER=/config/static
+      - MONITOR_YAML_PATH=/config/monitors.yaml
+      - SITE_YAML_PATH=/config/site.yaml
 
     ports:
-      - '3000:3000/tcp'
+      - '3009:3009/tcp'
     volumes:
       - '/host/path/to/config:/config:rw'

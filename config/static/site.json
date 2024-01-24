@@ -1,0 +1,23 @@
+{
+    "title": "Kener",
+    "home": "/",
+    "logo": "/logo.png",
+    "github": {
+        "owner": "guinto",
+        "repo": "5CC-App",
+        "incidentSince": 48
+    },
+    "metaTags": {
+        "description": "The Storepass status page shows the storepass software for board games and stores uptime."
+    },
+    "nav": [
+        {
+            "name": "Home",
+            "url": "https://storepass.co"
+        }
+    ],
+    "hero": {
+        "title": "Storepass Software For Board Game and TCG Stores",
+        "subtitle": "Incredible tools to save time and increase conversions"
+    }
+}

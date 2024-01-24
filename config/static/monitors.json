@@ -1,0 +1,58 @@
+[
+    {
+        "name": "API",
+        "description": "The API that powers the search",
+        "tag": "api",
+        "api": {
+            "method": "GET",
+            "url": "https://store.storepass.co/saas/search?store_id=OvpVz0pNlL&mongo=true&override_buylist_gt_price=true&product_line=All&limit=30&fields=id,productId,availability,stock,selectedFinish,url,imageUrl,price,salePrice,regularPrice,name,variantInfo,bigCommerceImages,msrp,tags,publisher&convert_to_currency=&round_price=&in_stock=&big_commerce_category_ids=&shopify_collection_id=&name=&product_ids=&product_handles=&no_track=true",
+            "eval": "(function (statusCode, responseTime, responseData) {\n\tlet statusCodeShort = Math.floor(statusCode/100);\n    if(statusCode == 429 || (statusCodeShort >=2 && statusCodeShort <= 3)) {\n        return {\n\t\t\tstatus: 'UP',\n\t\t\tlatency: responseTime,\n        }\n    } \n\treturn {\n\t\tstatus: 'DOWN',\n\t\tlatency: responseTime,\n\t}\n})",
+            "timeout": 10000
+        },
+        "folderName": "api",
+        "path0Day": "config/static/api.0day.utc.json",
+        "hasAPI": true
+    },
+    {
+        "name": "Admin",
+        "description": "The admin panel",
+        "tag": "admin",
+        "api": {
+            "method": "GET",
+            "url": "https://storepass.co",
+            "eval": "(function (statusCode, responseTime, responseData) {\n\tlet statusCodeShort = Math.floor(statusCode/100);\n    if(statusCode == 429 || (statusCodeShort >=2 && statusCodeShort <= 3)) {\n        return {\n\t\t\tstatus: 'UP',\n\t\t\tlatency: responseTime,\n        }\n    } \n\treturn {\n\t\tstatus: 'DOWN',\n\t\tlatency: responseTime,\n\t}\n})",
+            "timeout": 10000
+        },
+        "folderName": "admin",
+        "path0Day": "config/static/admin.0day.utc.json",
+        "hasAPI": true
+    },
+    {
+        "name": "Stable",
+        "description": "The stable server that enterprise stores run on",
+        "tag": "stable",
+        "api": {
+            "method": "GET",
+            "url": "https://stable.storepass.co/saas/search?store_id=OvpVz0pNlL&mongo=true&override_buylist_gt_price=true&product_line=All&limit=30&fields=id,productId,availability,stock,selectedFinish,url,imageUrl,price,salePrice,regularPrice,name,variantInfo,bigCommerceImages,msrp,tags,publisher&convert_to_currency=&round_price=&in_stock=&big_commerce_category_ids=&shopify_collection_id=&name=&product_ids=&product_handles=&no_track=true",
+            "eval": "(function (statusCode, responseTime, responseData) {\n\tlet statusCodeShort = Math.floor(statusCode/100);\n    if(statusCode == 429 || (statusCodeShort >=2 && statusCodeShort <= 3)) {\n        return {\n\t\t\tstatus: 'UP',\n\t\t\tlatency: responseTime,\n        }\n    } \n\treturn {\n\t\tstatus: 'DOWN',\n\t\tlatency: responseTime,\n\t}\n})",
+            "timeout": 10000
+        },
+        "folderName": "stable",
+        "path0Day": "config/static/stable.0day.utc.json",
+        "hasAPI": true
+    },
+    {
+        "name": "Dev",
+        "description": "The dev server that is used for testing",
+        "tag": "dev",
+        "api": {
+            "method": "GET",
+            "url": "https://dev.storepass.co/saas/search?store_id=OvpVz0pNlL&mongo=true&override_buylist_gt_price=true&product_line=All&limit=30&fields=id,productId,availability,stock,selectedFinish,url,imageUrl,price,salePrice,regularPrice,name,variantInfo,bigCommerceImages,msrp,tags,publisher&convert_to_currency=&round_price=&in_stock=&big_commerce_category_ids=&shopify_collection_id=&name=&product_ids=&product_handles=&no_track=true",
+            "eval": "(function (statusCode, responseTime, responseData) {\n\tlet statusCodeShort = Math.floor(statusCode/100);\n    if(statusCode == 429 || (statusCodeShort >=2 && statusCodeShort <= 3)) {\n        return {\n\t\t\tstatus: 'UP',\n\t\t\tlatency: responseTime,\n        }\n    } \n\treturn {\n\t\tstatus: 'DOWN',\n\t\tlatency: responseTime,\n\t}\n})",
+            "timeout": 10000
+        },
+        "folderName": "dev",
+        "path0Day": "config/static/dev.0day.utc.json",
+        "hasAPI": true
+    }
+]
